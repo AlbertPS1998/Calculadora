@@ -1,0 +1,61 @@
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculadora{
+    background-color: rgb(41, 40, 40);
+    width: 300px;
+    height: 500px;
+    position:relative; 
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.pantalla{
+
+    position:relative;
+    width: 250px;
+    height: 200px;
+    background-color:rgba(205, 212, 212, 0.952);
+    margin-top:15px;
+    margin-bottom:20px;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+
+
+
+.totalBotones{
+    margin-bottom: 30px;
+    
+}
+
+.botonesRaros{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    width: 100%;
+    gap: 5px;
+    margin-bottom: 3px;
+}
+.clear{
+inline-size: auto;    
+height: 31px;
+width: 105;
+   
+}
+
+.delete{
+    width: 110;
+    height: 31px;
+}
+.numeros button{
+    width: 60px;
+    height: 60px;
+}
